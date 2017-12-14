@@ -1,0 +1,798 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-11 11:03:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-12 19:44:46
+*/
+@import url("base.css");
+@media screen and (min-width: 1024px){
+    header .nav{
+    	width: 976px;
+    }
+    nav ul{
+    	width: 976px;
+    }
+    nav{
+    	display: block;
+    }
+    .nav-min{
+    	display: none;
+    }
+    .iphone .eight a .wenzi{
+    	padding-top: 46px;
+    }
+    .iphone .eight a .wenzi h1{
+	font-size: 56px;
+    }
+    .iphone .eight a .wenzi h2{
+	font-size: 27px;
+	margin-top: 8px;
+    }
+    .iphone .eight a .zhaopian{
+    background-size: 561px 395px;
+    background: url('../img/iphone_8_large.jpg') no-repeat;
+    width: 561px;
+    height: 395px;
+}
+.iphone li{
+    height: 580px;
+}
+.iphone .ten a .wenzi{
+    	padding-top: 88px;
+    }
+    .iphone .ten a .wenzi h1{
+	font-size: 56px;
+    }
+    .iphone .ten a .wenzi h2{
+	font-size: 24px;
+	margin-top: 6px;
+    }
+    .iphone .ten a .zhaopian{
+    background-size: 909px 194px;
+    background: url('../img/iphone_x_large.jpg') no-repeat;
+    width: 909px;
+    height: 194px;
+        top: 274px;
+}
+.sixbox .box{
+    height: 592px;
+}
+.sixbox .box:nth-child(-n+2){
+	height: 598px;
+}
+.sixbox .box:nth-last-child(-n+2){
+	height: 598px;
+}
+.sixbox .box .hezi a{
+	height: 580px;
+}
+.sixbox .box .hezi a .zi .header{
+        font-size: 40px;
+    margin-top: 52px;
+}
+.sixbox .box .hezi a .zi .footer{
+	font-size: 21px;
+	    margin-top: 4px;
+}
+.sixbox .box-3 .hezi a .zi .header{
+	width: 142px;
+    height: 54px;
+    background-size: 142px 54px;
+    background: url('../img/watch_series_3_promo_large.png') no-repeat center;
+}
+.sixbox .box-1 .hezi a .tu{
+    width: 491px;
+    height: 344px;
+    background-size: 491px 344px;
+    background: url('../img/box1-1.png') no-repeat;
+}
+.sixbox .box-2 .hezi a .tu{
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background: url('../img/box2-1.jpg') no-repeat;
+    left: calc(50% - 631px);
+    top: calc(50% - 360px);
+}
+.sixbox .box-3 .hezi a .tu{
+    width: 586px;
+    height: 274px;
+    background-size: 586px 274px;
+    background: url('../img/box3-1.jpg') no-repeat;
+    left: calc(50% - 293px);
+    top: calc(50% - 137px);
+    top: 200px;
+}
+.sixbox .box{
+
+    width: 50%;
+}
+.sixbox .box-4 .hezi a .tu{
+    width: 510px;
+    height: 146px;
+    top: 280px;
+    background-size: 510px 146px;
+    background: url('../img/box4-1.jpg') no-repeat center;
+}
+.sixbox .box-5 .hezi a .tu{
+    width: 251px;
+    height: 420px;
+    bottom: 0;
+    background-size: 251px 420px;
+    background: url('../img/box5-1.jpg') no-repeat center;
+}
+.sixbox .box-6 .hezi a .tu{
+    width: 385px;
+    height: 304px;
+    bottom: 70px;
+    background-size: 385px 304px;
+    background: url('../img/box6-1.jpg') no-repeat center;
+}
+.dibu-one{
+		width: 980px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.dibu-three{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	header .nav{
+		padding: 0 16px;
+	}
+	nav{
+    	display: block;
+    }
+    nav ul li{
+    	padding: 0 16px;
+    }
+    .nav-min{
+    	display: none;
+    }
+     .iphone .eight a .wenzi{
+    	padding-top: 70px;
+    }
+        .iphone .eight a .wenzi h1{
+	font-size: 44px;
+}
+.iphone .eight a .wenzi h2{
+	font-size: 24px;
+	margin-top: 5px;
+    }
+     .iphone .eight a .zhaopian{
+    background-size: 549px 388px;
+    background: url('../img/iphone_8_medium.jpg') no-repeat;
+    width: 549px;
+    height: 388px;
+}
+.iphone li{
+    height: 569px;
+}
+.iphone .ten a .wenzi{
+    	padding-top: 101px;
+    }
+    .iphone .ten a .wenzi h1{
+	font-size: 44px;
+    }
+    .iphone .ten a .wenzi h2{
+	font-size: 19px;
+	margin-top: 4px;
+    }
+    .iphone .ten a .zhaopian{
+    background-size: 704px 148px;
+    background: url('../img/iphone_x_medium.jpg') no-repeat;
+    width: 704px;
+    height: 148px;
+        top: 278px;
+}
+.sixbox .box{
+    height: 502px;
+}
+.sixbox .box:nth-child(-n+2){
+	height: 508px;
+}
+.sixbox .box:nth-last-child(-n+2){
+	height: 508px;
+}
+.sixbox .box .hezi a{
+	height: 490px;
+}
+.sixbox .box .hezi a .zi .header{
+        font-size: 32px;
+    margin-top: 42px;
+}
+.sixbox .box .hezi a .zi .footer{
+	font-size: 19px;
+	    margin-top: 3px;
+}
+.sixbox .box-3 .hezi a .zi .header{
+	width: 117px;
+    height: 44px;
+    background-size: 117px 44px;
+    background: url('../img/watch_series_3_promo_medium.png') no-repeat center;
+}
+.sixbox .box-1 .hezi a .tu{
+    width: 336px;
+    height: 236px;
+    background-size: 336px 236px;
+    background: url('../img/box1-2.png') no-repeat;
+}
+.sixbox .box-2 .hezi a .tu{
+    width: 516px;
+    height: 490px;
+    background-size: 516px 490px;
+    background: url('../img/box2-2.jpg') no-repeat center;
+    left: calc(50% - 258px);
+    top: calc(50% - 285px);
+    top: 24px;
+}
+.sixbox .box{
+
+    width: 50%;
+}
+.sixbox .box-3 .hezi a .tu{
+    width: 288px;
+    height: 322px;
+    background-size: 288px 322px;
+    background: url('../img/box3-2.jpg') no-repeat;
+}
+.sixbox .box-4 .hezi a .tu{
+    width: 318px;
+    height: 91px;
+    top: 280px;
+    background-size: 318px 91px;
+    background: url('../img/box4-2.jpg') no-repeat center;
+}
+.sixbox .box-5 .hezi a .tu{
+    width: 199px;
+    height: 348px;
+    bottom: 0;
+    background-size: 199px 348px;
+    background: url('../img/box5-2.jpg') no-repeat center;
+}
+.sixbox .box-6 .hezi a .tu{
+    width: 269px;
+    height: 212px;
+    bottom: 70px;
+    background-size: 269px 212px;
+    background: url('../img/box6-2.jpg') no-repeat center;
+}
+.dibu-one{
+		padding:0 28px;
+	}
+	.dibu-three{
+		display: none;
+	}
+    
+   footer .dibu-2{
+        width: auto;
+        padding: 34px 16px 20px;
+    }
+}
+@media screen and (max-width: 768px){
+	nav{
+    	display: none;
+    }
+    header .nav{
+		padding: 0 15px;
+	}
+
+    .nav-min{
+    	display: block;
+    }
+    .nav-min ul{
+    	padding: 0 16px;
+    }
+    .iphone .eight a .wenzi{
+    	padding-top: 37px;
+    }
+        .iphone .eight a .wenzi h1{
+	font-size: 32px;
+}
+.iphone .eight a .wenzi h2{
+	font-size: 19px;
+	margin-top: 2px;
+    }
+     .iphone .eight a .zhaopian{
+    background-size: 267px 357px;
+    background: url('../img/iphone_8_small.jpg') no-repeat;
+    width: 267px;
+    height: 357px;
+}
+.iphone li{
+    height: 500px;
+}
+.iphone .ten a .wenzi{
+    	padding-top: 40px;
+    }
+    .iphone .ten a .wenzi h1{
+	font-size: 32px;
+    }
+    .iphone .ten a .wenzi h2{
+	font-size: 27px;
+	margin-top: 6px;
+    }
+    .iphone .ten a .zhaopian{
+    background-size: 167px 333px;
+    background: url('../img/iphone_x_small.jpg') no-repeat;
+    width: 167px;
+    height: 333px;
+        top: 130px;
+}
+.sixbox .box{
+    height: 512px;
+}
+.sixbox .box:nth-child(-n+2){
+	height: 512px;
+}
+.sixbox .box:nth-last-child(-n+2){
+	height: 512px;
+}
+.sixbox .box .hezi a{
+	height: 500px;
+}
+.sixbox .box .hezi a .zi .header{
+        font-size: 32px;
+    margin-top: 37px;
+}
+.sixbox .box .hezi a .zi .footer{
+	font-size: 21px;
+	    margin-top: 4px;
+}
+.sixbox .box-3 .hezi a .zi .header{
+	width: 142px;
+    height: 54px;
+    background-size: 142px 54px;
+    background: url('../img/watch_series_3_promo_large.png') no-repeat center;
+}
+.sixbox .box-1 .hezi a .tu{
+    width: 314px;
+    height: 219px;
+    background-size: 314px 219px;
+    background: url('../img/box1-3.png') no-repeat;
+}
+.sixbox .box-2 .hezi a .tu{
+    width: 736px;
+    height: 500px;
+    background-size: 736px 500px;
+    background: url('../img/box2-3.jpg') no-repeat;
+    left: calc(50% - 368px);
+    top: calc(50% - 310px);
+}
+
+.sixbox .box{
+
+    width: 100%;
+}
+.sixbox .box-3 .hezi a .tu{
+    width: 291px;
+    height: 326px;
+    background-size: 291px 326px;
+    background: url('../img/box3-3.jpg') no-repeat;
+}
+.sixbox .box-4 .hezi a .tu{
+    width: 299px;
+    height: 86px;
+    background-size: 299px 86px;
+    background: url('../img/box4-3.jpg') no-repeat center;
+    top: 280px;
+}
+.sixbox .box-5 .hezi a .tu{
+    width: 206px;
+    height: 364px;
+    bottom: 0;
+    background-size: 206px 364px;
+    background: url('../img/box5-3.jpg') no-repeat center;
+}
+.sixbox .box-6 .hezi a .tu{
+    width: 244px;
+    height: 193px;
+    bottom: 70px;
+    background-size: 244px 193px;
+    background: url('../img/box6-3.jpg') no-repeat center;
+}
+footer .dibu-one{
+    display: none;
+}
+	.dibu-three{
+		display: block;
+	}
+    .dibu-2{
+        display: none;
+    }
+   footer .dibu-2-3{
+        display: block;
+        width: auto;
+        padding: 17px 16px 20px;
+    }
+}
+header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+header .nav{
+	height: 40px;
+	margin: 0 auto;
+}
+header .nav div{
+	color: #a8a8aa;
+	line-height: 40px;
+	float: right;
+	font-size: 12px;
+}
+nav{
+	width:100%;
+	height: 44px;
+	background: #323232;
+}
+nav ul{
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+nav ul li{
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 44px;
+	height: 44px;
+}
+.nav-min{
+	width:100%;
+	height: 44px;
+	background: #323232;
+}
+.nav-min ul li:first-child{
+	font-size: 30px;
+	line-height: 44px;
+}
+.nav-min ul{
+	padding: 0 16px;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+.iphone{
+	width: 100%;
+	height: auto;
+	margin-top: 44px;
+}
+.iphone .ten{
+    width: 100%;
+    background: #fafafa;
+    border-bottom: 12px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+.iphone .eight{
+    width: 100%;
+    background: #f9f0eb;
+    position: relative;
+    overflow: hidden;
+}
+.iphone li a{
+	width: 100%;
+	height: 100%;	
+}
+.iphone li a .wenzi{
+	text-align: center;
+}
+.iphone li a .wenzi h1{
+	color: #111;
+	text-align: center;
+}
+.iphone li a .wenzi h2{
+	color: #111;
+	font-weight: normal;
+	text-align: center;
+}
+.iphone .eight a .zhaopian{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iphone .ten a .zhaopian{
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sixbox{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.sixbox .box{
+    box-sizing: border-box;
+    border: 6px solid #fff;
+    background-color: #fafafa;
+/*     width: 50%;
+ */}
+.sixbox .box:nth-child(odd){
+	border-left-width: 12px;
+}
+.sixbox .box:nth-child(even){
+	border-right-width: 12px;
+}
+.sixbox .box:nth-child(-n+2){
+	border-top-width: 12px;
+/* 	height: 598px; */
+}
+.sixbox .box:nth-last-child(-n+2){
+	border-bottom-width: 12px;
+/* 	height: 598px; */
+}
+.sixbox .box .hezi a{
+	width: 100%;
+	/* height: 580px; */
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+}
+.sixbox .box .hezi a .zi{
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+.sixbox .box .hezi a .zi .header{
+	color: #111;
+	text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+ /*        font-size: 40px;
+    margin-top: 52px; */
+}
+
+.sixbox .box .hezi a .zi .footer{
+/* 	font-size: 21px;
+	    margin-top: 4px; */
+	    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #333;
+    font-weight: normal;
+}
+.sixbox .box .hezi a .tupian{
+	width: 100%;
+	height: 100%;
+}
+.box .hezi a .tu{
+	z-index: 1;
+	position: absolute;
+   /*  width: 491px;
+    height: 344px;
+    background-size: 491px 344px;
+    background: url('../img/box1-1.png') no-repeat; */
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sixbox .box-2 .hezi a .tu{
+	z-index: 1;
+	position: absolute;
+	top: 30px;
+   /*  width: 491px;
+    height: 344px;
+    background-size: 491px 344px;
+    background: url('../img/box1-1.png') no-repeat; */
+}
+footer{
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.dibu-one{
+	margin-top: 40px;
+	display: flex;
+}
+.dibu-one li{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.dibu-one li span{
+	font-size: 10px;
+	color: #555555;
+	margin-bottom: 6px;
+}
+.dibu-one li span:first-child{
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+}
+.dibu-one li:nth-child(3) span:nth-child(4){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+}
+.dibu-one li:nth-child(4) span:nth-child(5){
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+}
+.dibu-three{
+	padding: 0 16px;
+}
+.dibu-three li{
+	height: 38px;
+	overflow: hidden;
+	padding-right: 12px;
+	border-bottom: 1px solid #d6d6d6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dibu-three li span{
+	display: block;
+	font-size: 10px;
+	color: #333333;
+}
+.dibu-2{
+    padding-top: 34px;
+    width: 976px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.dibu-2 .top{
+    padding-bottom: 7px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 7px;
+    color: #888;
+    font-size: 12px;
+}
+.dibu-2 .top a{
+    font-size: 12px;
+    color:#0070c9;
+}
+.dibu-2 .zhong{
+    margin-top: -3px;
+    display: flex;
+    justify-content: space-between;
+}
+.dibu-2 .zhong .left{
+    display: flex;
+    align-items: center;
+}
+.zhong .left>span{
+    font-size: 12px;
+    color: #888;
+    margin-right: 30px;
+    display: block;
+    margin-top: 3px;
+}
+.zhong .left>div{
+    display: flex;
+    align-items: center;
+}
+.zhong .left>div a{
+    font-size: 12px;
+    color: #888;
+}
+.zhong .left>div span{
+    font-size: 14px;
+    color: #999;
+    margin: 0 11px;
+}
+.zhong .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.zhong .right i{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/16.png');
+}
+.zhong .right em{
+    font-size: 12px;
+    color: #888;
+    margin-left: 5px;
+    font-style: normal;
+}
+.dibu-2 .bottom{
+    font-size: 12px;
+    color: #888;
+    margin-top: 6px;
+}
+.dibu-2-3{
+    display: none;
+    padding-top: 34px;
+    width: 976px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.dibu-2-3 .one{
+    margin-bottom: 14px;
+    color: #888;
+    font-size: 12px;
+}
+.dibu-2-3 .one a{
+    font-size: 12px;
+    color:#0070c9;
+}
+.dibu-2-3 .tow {
+    display: flex;
+    align-items: center;
+}
+.dibu-2-3 .tow i{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/16.png);
+}
+.dibu-2-3 .tow em{
+    font-size: 12px;
+    color: #888;
+    margin-left: 5px;
+    font-style: normal;
+}
+.dibu-2-3>span{
+    font-size: 12px;
+    color: #888;
+    margin-right: 30px;
+    display: block;
+    margin-top: 11px;
+    display: block;
+}
+.dibu-2-3 .there{
+    margin-top: 3px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+.dibu-2-3 .there a{
+    font-size: 12px;
+    color: #888;
+}
+.dibu-2-3 .there span{
+    font-size: 14px;
+    color: #999;
+    margin: 0 8px;
+    font-weight: 200px;
+}
+.dibu-2-3 .four{
+    font-size: 12px;
+    color: #888;
+    margin-top: 3px;
+}
+.dibu-2-3 li a:hover,.shouhou2 .middle .left a:hover,.shouhou3 .there a:hover,.shouhou3 .tow a:hover em{
+    text-decoration: underline;
+    color: #000;
+}
+.shouhou2 a:hover,.shouhou3 a:hover{
+    text-decoration: underline;
+}
